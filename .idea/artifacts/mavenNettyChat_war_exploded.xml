@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mavenNettyChat:war exploded">
+    <output-path>$PROJECT_DIR$/target/mavenNettyChat</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mavenNettyChat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.4.Final" />
+          <element id="library" level="project" name="Maven: org.msgpack:msgpack:0.6.11" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mavenNettyChat/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mavenNettyChat/web/Web" />
+    </root>
+  </artifact>
+</component>

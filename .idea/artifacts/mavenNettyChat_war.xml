@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mavenNettyChat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mavenNettyChat.war">
+      <element id="artifact" artifact-name="mavenNettyChat:war exploded" />
+    </root>
+  </artifact>
+</component>
